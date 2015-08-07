@@ -11,4 +11,5 @@ LazyData: TRUE
 Imports:
    ggplot2
    grid
-URL: http://github.com/seaaan/gghlab
+URL: https://github.com/seaaan/gghlab
+BugReports: https://github.com/seaaan/gghlab/issues
