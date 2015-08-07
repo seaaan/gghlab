@@ -1,0 +1,14 @@
+Package: gghlab
+Title: Hladik Lab ggplot2 Helpers and Defaults
+Version: 0.1
+Authors@R: person("Sean", "Hughes", email = "smhughes@uw.edu",
+   role = c("aut", "cre"))
+Description: Provides helper functions and standard defaults for ggplot2-based
+   graphs in the Hladik lab.
+Depends: R (>= 2.1.4)
+License: GPL-3
+LazyData: TRUE
+Imports:
+   ggplot2
+   grid
+URL: http://github.com/seaaan/gghlab
