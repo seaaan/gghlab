@@ -8,8 +8,9 @@ Description: Provides helper functions and standard defaults for ggplot2-based
 Depends: R (>= 2.1.4)
 License: GPL-3
 LazyData: TRUE
-Imports:
+Imports: 
    ggplot2,
-   grid
+   grid,
+    scales
 URL: https://github.com/seaaan/gghlab
 BugReports: https://github.com/seaaan/gghlab/issues
