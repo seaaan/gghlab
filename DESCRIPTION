@@ -4,13 +4,15 @@ Version: 0.1
 Authors@R: person("Sean", "Hughes", email = "smhughes@uw.edu",
    role = c("aut", "cre"))
 Description: Provides helper functions and standard defaults for ggplot2-based
-   graphs in the Hladik lab.
-Depends: R (>= 2.1.4)
+    graphs in the Hladik lab.
+Depends:
+    R (>= 2.1.4)
 License: GPL-3
 LazyData: TRUE
-Imports: 
-   ggplot2,
-   grid,
+Imports:
+    ggplot2,
+    grid,
     scales
 URL: https://github.com/seaaan/gghlab
 BugReports: https://github.com/seaaan/gghlab/issues
+RoxygenNote: 5.0.1

@@ -62,3 +62,29 @@ theme_pub <- function(trim_white_space = FALSE) {
       return(result)
    }
 }
+
+
+#' Theme for slide presentations
+#'
+#' Provides sensible defaults for graphs intended for projection
+#' display.
+#'
+#' @export
+#'
+#' @examples
+#' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
+#' p
+#' p + theme_pres()
+theme_pres <- function() {
+   result <- ggplot2::theme(
+      # fonts
+      title = ggplot2::element_text(size = 24),
+      axis.title = ggplot2::element_text(size = 20),
+      strip.text = ggplot2::element_text(size = 20),
+      legend.title = ggplot2::element_text(size = 18, face = "plain"),
+      legend.text = ggplot2::element_text(size = 18, color = "grey50"),
+      axis.text = ggplot2::element_text(size = 18)
+   )
+
+   result
+}
